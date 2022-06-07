@@ -1,0 +1,6 @@
+C:\Users\cogdotnet33\source\repos\FlightProject\UserModule\obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.Development.json
+C:\Users\cogdotnet33\source\repos\FlightProject\UserModule\obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.json
+C:\Users\cogdotnet33\source\repos\FlightProject\UserModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.dll
+C:\Users\cogdotnet33\source\repos\FlightProject\UserModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.runtimeconfig.json
+C:\Users\cogdotnet33\source\repos\FlightProject\UserModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.pdb
+C:\Users\cogdotnet33\source\repos\FlightProject\UserModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.deps.json

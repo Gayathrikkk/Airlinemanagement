@@ -1,0 +1,14 @@
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.runtimeconfig.json
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.Development.json
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.json
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\AdminModule.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\AdminModule.runtimeconfig.json
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\AdminModule.pdb
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.dll
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\UserModule.pdb
+D:\source\repos\FlightProject\AdminModule\obj\Release\netcoreapp2.1\PubTmp\Out\AdminModule.deps.json

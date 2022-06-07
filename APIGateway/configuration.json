@@ -1,0 +1,146 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/Admin/Getadmincreds",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 9000,
+      "UpstreamPathTemplate": "/api/Admin/Getadmincreds",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Admin/Addairline",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 9000,
+      "UpstreamPathTemplate": "/api/Admin/Addairline",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Admin/Scheduleairline",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 9000,
+      "UpstreamPathTemplate": "/api/Admin/Scheduleairline",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Admin/blockairline",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 9000,
+      "UpstreamPathTemplate": "/api/Admin/blockairline",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/UserRegistration",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5005,
+      "UpstreamPathTemplate": "/api/User/UserRegistration",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Ticketbook",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5005,
+      "UpstreamPathTemplate": "/api/User/Ticketbook",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetBookingdetails",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5005,
+      "UpstreamPathTemplate": "/api/User/GetBookingdetails",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+    
+
+    {
+      "DownstreamPathTemplate": "/api/User/GetBookinghistory",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5005,
+      "UpstreamPathTemplate": "api/User/GetBookinghistory",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QosOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeOUtValue": 5000
+      }
+    },
+
+    {
+      "downstreampathtemplate": "/api/user/cancelticket",
+      "downstreamscheme": "http",
+      "downstreamhost": "localhost",
+      "downstreamport": 5005,
+      "upstreampathtemplate": "/api/user/cancelticket",
+      "upstreamhttpmethod": [ "delete" ],
+      "qosoptions": {
+        "exceptionsallowedbeforebreaking": 3,
+        "durationofbreak": 10,
+        "timeoutvalue": 5000
+      }
+    }
+    //,
+    //{
+    //  "DownstreamPathTemplate": "/api/User/Onewayroundtrip",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHost": "localhost",
+    //  "DownstreamPort": 5005,
+    //  "UpstreamPathTemplate": "/api/User/Onewayroundtrip",
+    //  "UpstreamHttpMethod": [ "Get" ],
+    //  "QosOptions": {
+    //    "ExceptionsAllowedBeforeBreaking": 3,
+    //    "DurationOfBreak": 10,
+    //    "TimeOUtValue": 5000
+    //  }
+    //}
+  ],
+
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
+}

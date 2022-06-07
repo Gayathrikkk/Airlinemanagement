@@ -1,0 +1,30 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "UserModule20220527170258.subscriptionId": {
+      "Name": "UserModule20220527170258.subscriptionId",
+      "Type": "subscription",
+      "Value": "b79db76f-848b-493f-a6c6-cfe1d0d632b4"
+    },
+    "UserModule20220527170258.resourceGroupName": {
+      "Name": "UserModule20220527170258.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NetworkWatcherRG"
+    },
+    "UserModule20220527170258.resourceName": {
+      "Name": "UserModule20220527170258.resourceName",
+      "Type": null,
+      "Value": "UserModule20220527170258"
+    },
+    "UserModule20220527170258.resourceGroupLocation": {
+      "Name": "UserModule20220527170258.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "b79db76f-848b-493f-a6c6-cfe1d0d632b4"
+    }
+  }
+}
